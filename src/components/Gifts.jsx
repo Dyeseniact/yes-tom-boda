@@ -1,7 +1,5 @@
-// src/components/Gifts.jsx
 import React from "react";
 import { SectionWrapper } from "../hoc";
-import qrImage from "../assets/qr.png";
 
 const Gifts = () => {
   return (
@@ -43,7 +41,7 @@ const Gifts = () => {
 
         {/* QR */}
         <img
-          src={qrImage}
+          src="https://nuvoriastoragesandbox.blob.core.windows.net/fotos/nuvoria-wedding-yes-tom/QR.jpeg?sp=r&st=2025-11-17T08:23:10Z&se=2026-04-15T16:38:10Z&spr=https&sv=2024-11-04&sr=b&sig=6Fb3nV2InOlCsDbi4RgDfMC0%2F8EGxJPzwmnHMgk%2F%2Bsc%3D"
           alt="QR Mesa de Regalos"
           className="w-48 h-48 mt-8 rounded-xl shadow-md"
         />

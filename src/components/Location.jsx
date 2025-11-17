@@ -1,7 +1,4 @@
-// src/components/Location.jsx
 import React from "react";
-import iglesiaFoto from "../assets/iglesia.jpg";
-import salonFoto from "../assets/salon1.jpeg";
 import { SectionWrapper } from "../hoc";
 
 const Location = () => {
@@ -11,7 +8,7 @@ const Location = () => {
       subtitle: "Basílica de Nuestra Señora de los Remedios",
       address: "Naucalpan, Estado de México",
       time: "2:00 PM",
-      img: iglesiaFoto,
+      img: "https://nuvoriastoragesandbox.blob.core.windows.net/fotos/nuvoria-wedding-yes-tom/BasilicaLosRemedios.jpeg?sp=r&st=2025-11-17T08:22:06Z&se=2026-04-15T16:37:06Z&spr=https&sv=2024-11-04&sr=b&sig=Oaf0FJba0zkjIlHZk%2FKGmhbbhgzsepJKCtx4P1GAd20%3D",
       maps: "https://www.google.com/maps/place/Bas%C3%ADlica+de+Nuestra+Se%C3%B1ora+de+los+Remedios/@19.4721687,-99.2519057,18.5z/data=!4m6!3m5!1s0x85d203a0a496a8f3:0xc7c30bbd509c0f4f!8m2!3d19.4722201!4d-99.2512734!16s%2Fg%2F11fd6dgpkj?entry=ttu&g_ep=EgoyMDI1MTExMS4wIKXMDSoASAFQAw%3D%3D",
       waze: "https://waze.com/ul?ll=19.4722201,-99.2512734&navigate=yes",
     },
@@ -24,7 +21,7 @@ const Location = () => {
       ),
       address: "Naucalpan, Estado de México",
       time: "3:30 PM",
-      img: salonFoto,
+      img: "https://nuvoriastoragesandbox.blob.core.windows.net/fotos/nuvoria-wedding-yes-tom/QuintaCorregidora.png?sp=r&st=2025-11-17T08:22:45Z&se=2026-04-15T16:37:45Z&spr=https&sv=2024-11-04&sr=b&sig=Ft3ZESe1B5XTgTP1KQKdZJKlkwhfgOXAqhFqHIQqTQI%3D",
       maps: "https://www.google.com/maps/place/Jardin+Quinta+Corregidor/data=!4m2!3m1!1s0x0:0x409f84a48380d802?sa=X&ved=1t:2428&ictx=111",
       waze: "https://waze.com/ul/h9g3qv3etf&navigate=yes",
     },
